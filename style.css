@@ -1,0 +1,26 @@
+body {
+    font-size: 24px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#tank {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    border: 8px solid rgb(5, 5, 5);
+    background: linear-gradient(lightblue, blue, darkblue);
+    position: relative;
+    overflow: hidden;
+}
+
+.fish {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+}
